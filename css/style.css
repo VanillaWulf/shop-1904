@@ -1,0 +1,117 @@
+:root {
+    --black-color: #222222;
+    --pink-color: #F1E4E6;
+}
+
+body {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+.header {
+    background-color: var(--black-color);
+}
+
+.header__wrapper {
+    min-height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__menu-button {
+    border: none;
+    background-color: transparent;
+}
+
+.header__link {
+    margin: 0 0 0 33px;
+}
+
+.header__navigation {
+    display: none;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand__heading-wrapper {
+    background-color: var(--pink-color);
+    flex-grow: 1;
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+}
+
+.brand__heading {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.brand__heading-text {
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.stocks__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.stocks__item {
+    width: 360px;
+    min-height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stocks__item--woman {
+    background-image: url(../img/woman.jpg);
+}
+
+.stocks__item--man {
+    background-image: url(../img/woman.jpg);
+    /*man.jpg*/
+}
+
+.stocks__item--kids {
+    background-image: url(../img/woman.jpg);
+    /*kids.jpg*/
+}
+
+.stocks__item--accessories {
+    width: 100%;
+    background-image: url(../img/woman.jpg);
+    /*accessories.jpg*/
+}
+
+
