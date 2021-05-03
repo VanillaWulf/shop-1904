@@ -1,0 +1,31 @@
+%margin-l-30 {
+    margin: 0 0 0 30px;
+}
+
+.header {
+    background-color: $black-color;
+
+    &__wrapper {
+        min-height: 75px;
+        @include flex-center-space-between();
+    }
+
+    &__logo {
+        // margin: 0 41px 0 0; 
+        @extend %margin-l-30;
+    }
+
+    &__menu-button {
+        border: none;
+        background-color: transparent;
+    }
+
+    &__link {
+        // margin: 0 0 0 33px;
+        @extend %margin-l-30;
+    }
+
+    &__navigation {
+        display: none;
+    }
+}
