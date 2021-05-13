@@ -7,9 +7,19 @@
     }
     
     .stocks__item {
-        width: 360px;
+        width: 31%;
         min-height: 260px;
+        background-size: cover;
         @include flex-center();
+
+        @include tablet {
+            min-height: 167px;
+        }
+
+        @include mobile {
+            width: 100%;
+            min-height: 248px;
+        }
 
         &--woman {
             background-image: url(../img/woman.jpg);
@@ -29,6 +39,14 @@
             width: 100%;
             background-image: url(../img/woman.jpg);
             /*accessories.jpg*/
+
+            @include tablet {
+                min-height: 116px;
+            }
+
+            @include mobile {
+                min-height: 111px;
+            }
         }
     }
 }
